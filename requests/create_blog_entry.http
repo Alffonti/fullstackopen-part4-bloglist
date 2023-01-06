@@ -1,0 +1,8 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Tips to Boost Your Dev Career",
+  "author": "DoctorLai",
+  "url": "https://dev.to/doctorlai/tips-to-boost-your-dev-career-1ma7"
+}
