@@ -117,6 +117,8 @@ Jest is specified in the environment property in the `.eslintrc.js` file in orde
 
 Tests are located in `.test.js` files within the `tests` directory.
 
+Related tests where grouped within describe blocks to improve the readability of the test output.
+
 The -t option can be used for running tests with a specific name (useful while fixing a failing test):
 ```
 npm test -- -t "<test name>"
@@ -125,6 +127,8 @@ npm test -- -t "<test name>"
 ## Integration testing
 
 The supertest package was installed as a development dependency in order to test HTTP requests to the `/api/blogs` URL.
+
+The API is was tested by making HTTP requests and inspecting the database with Mongoose.
 
 Tests related to testing the API are located in the `tests/blog_api.test.js` file.
 

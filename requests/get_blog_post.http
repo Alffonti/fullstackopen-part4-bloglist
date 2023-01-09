@@ -1,0 +1,11 @@
+GET http://localhost:3003/api/blogs/5a3d5da59070081a82a3445
+
+###
+
+GET https://bloglist.cyclic.app/api/blogs/63b95e3ecb4c6d786bd2c0bd
+
+###
+
+curl --request GET \
+  --url http://localhost:3003/api/blogs/63b95e3ecb4c6d786bd2c0bd \
+  --header 'user-agent: vscode-restclient'
