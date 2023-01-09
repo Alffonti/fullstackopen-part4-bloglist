@@ -2,7 +2,26 @@ POST http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-  "title": "Tips to Boost Your Dev Career",
-  "author": "DoctorLai",
-  "url": "https://dev.to/doctorlai/tips-to-boost-your-dev-career-1ma7"
+  "title": "React patterns",
+  "author": "Michael Chan",
+  "url": "https://reactpatterns.com/"
 }
+
+###
+
+POST https://bloglist.cyclic.app/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Go To Statement Considered Harmful",
+  "author": "Edsger W. Dijkstra",
+  "url": "http://www.u.arizona.edu/~rubinson/copyright_violations/Go_To_Considered_Harmful.html"
+}
+
+###
+
+curl --request POST \
+    --url https://bloglist.cyclic.app/api/blogs \
+    --header 'content-type: application/json' \
+    --header 'user-agent: vscode-restclient' \
+    --data '{"title": "Go To Statement Considered Harmful","author": "Edsger W. Dijkstra","url": "http://www.u.arizona.edu/~rubinson/copyright_violations/Go_To_Considered_Harmful.html"}'

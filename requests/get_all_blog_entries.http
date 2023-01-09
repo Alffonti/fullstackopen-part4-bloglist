@@ -1,1 +1,11 @@
 GET http://localhost:3003/api/blogs
+
+###
+
+GET https://bloglist.cyclic.app/api/blogs
+
+###
+
+curl --request GET \
+  --url https://bloglist.cyclic.app/api/blogs \
+  --header 'user-agent: vscode-restclient'
