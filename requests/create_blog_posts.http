@@ -1,10 +1,11 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFsZmZvbnRpIiwiaWQiOiI2M2MxMzY0ZDE2YTExYTVkNWMzMjVhZjEiLCJpYXQiOjE2NzM2MTEwMTN9.MEIBwMjBk68RNxjdIcMcac0VnKKwia7WORAYSw504qw
 
 {
-  "title": "React patterns",
-  "author": "Michael Chan",
-  "url": "https://reactpatterns.com/"
+  "url": "https://overreacted.io/things-i-dont-know-as-of-2018/",
+  "title": "Things I don't know as of 2018",
+  "author": "Dan Abramov"
 }
 
 ###
